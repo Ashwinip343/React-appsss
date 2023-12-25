@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root{ */
+  /* background-color: #111421; */
+  
+  
+/* } */
+
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  background-color: rgb(0, 0, 0);
+  background-image: radial-gradient(at 0% 0%, rgb(226, 232, 240) 0, transparent 100%), radial-gradient(at 78% 0%, rgb(239, 68, 68) 0, transparent 100%), radial-gradient(at 0% 100%, rgb(107, 33, 168) 0, transparent 100%), radial-gradient(at 0% 0%, rgb(6, 95, 70) 0, transparent 100%), radial-gradient(at 89% 100%, rgb(254, 243, 199) 0, transparent 100%), radial-gradient(at 100% 100%, rgb(136, 19, 55) 0, transparent 0%);
+
+} */
+
+/* @media (prefers-color-scheme: dark) { */
+  :root {
+    height: fit-content;
+    
+    /* background-color: rgb(255, 255, 255); */
+    
+    /* background-image: radial-gradient(at 10% 0%, rgb(53, 88, 127) 0, transparent 100%), radial-gradient(at 78% 0%, rgb(239, 68, 68) 0, transparent 100%), radial-gradient(at 0% 100%, rgb(107, 33, 168) 0, transparent 100%), radial-gradient(at 0% 0%, rgb(6, 95, 70) 0, transparent 100%), radial-gradient(at 89% 100%, rgb(254, 243, 199) 0, transparent 100%), radial-gradient(at 100% 100%, rgb(136, 19, 55) 0, transparent 0%); */
+
+    
+    /* background-color: rgb(16, 28, 26); */
+    /* background-image: radial-gradient(at 0% 2%, rgb(19, 78, 74) 0, transparent 32%); */
+    
+  /* -webkit-text-fill-color: white; */
+    background-color: #09090b;
+    background-image: radial-gradient(at 0% 0%, rgb(14, 10, 34) 0, transparent 100%), radial-gradient(at 0% 100%, rgb(88, 28, 135) 0, transparent 67%), radial-gradient(at 100% 100%, rgb(20, 17, 47) 0, transparent 100%), radial-gradient(at 100% 0%, rgb(2, 132, 199) 0, transparent 100%);
+/*   
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; */
+  }
+/* } */
+
+body {
+  
+
+  background: transparent;
+  /* background-color: rgb(255, 255, 255);
+  background-image: radial-gradient(at 0% 0%, rgb(226, 232, 240) 0, transparent 100%), radial-gradient(at 78% 0%, rgb(239, 68, 68) 0, transparent 100%), radial-gradient(at 0% 100%, rgb(107, 33, 168) 0, transparent 100%), radial-gradient(at 0% 0%, rgb(6, 95, 70) 0, transparent 100%), radial-gradient(at 89% 100%, rgb(254, 243, 199) 0, transparent 100%), radial-gradient(at 100% 100%, rgb(136, 19, 55) 0, transparent 0%); */
+
+  /* color: rgb(var(--foreground-rgb));
+ 
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+} 
+
